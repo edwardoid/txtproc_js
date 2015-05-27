@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jtxtproc">
+    <output-path>$PROJECT_DIR$/../test/lib</output-path>
+    <root id="archive" name="jtxtproc.jar">
+      <element id="archive" name="jtxtproc.jar">
+        <element id="module-output" name="jtxtproc" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -119,7 +119,7 @@ http.createServer(function (req, res) {
 		resp_headers['stops'] = stop_words_result;
 
 	if(include_non_stops)
-		resp_headers['non-stops'] = non_stops_result;
+		resp_headers['non_stops'] = non_stops_result;
 
 	if(!isEmpty(stems) || !isEmpty(normalized) || !isEmpty(distances)) {
 		resp_headers['stemmed'] = {}
